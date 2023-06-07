@@ -30,9 +30,11 @@ const About = () => {
         </span>
         <div>
           <a href="/tomas luquez.pdf" download="CvTomasLuquez.pdf">
-            <Button hover={"header"} text={"blanco"}>
-              DESCARGAR CV
-            </Button>
+            <Button
+              text={"DESCARGAR CV"}
+              hover={"hover:bg-gris"}
+              color={"hover:text-blanco"}
+            />
           </a>
         </div>
       </div>

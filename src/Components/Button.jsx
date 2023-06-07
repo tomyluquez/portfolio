@@ -1,9 +1,9 @@
-const Button = ({ children, hover, text }) => {
+const Button = ({ text, hover, color }) => {
   return (
     <button
-      className={`px-8 py-4 border relative hover:bg-${hover} hover:text-${text} hover:border-negro duration-300`}
+      className={`px-8 py-4 border relative ${hover} ${color} duration-300`}
     >
-      <span className="relative z-10">{children}</span>
+      <span className="relative z-10">{text}</span>
     </button>
   );
 };

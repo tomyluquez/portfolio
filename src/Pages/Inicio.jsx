@@ -18,9 +18,13 @@ const Inicio = () => {
           Desarrollador web frontend con experiencia en HTML, CSS, JS, REACT,
           entre otros.
         </p>
-        <Button hover={"blanco"} text={"negro"}>
-          CONTACTAME
-        </Button>
+        <a href="tel:+5493512118497">
+          <Button
+            text={"CONTACTAME"}
+            hover={"hover:bg-blanco"}
+            color={"hover:text-negro"}
+          />
+        </a>
       </div>
     </section>
   );
