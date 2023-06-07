@@ -29,7 +29,7 @@ const About = () => {
           <CiLocationOn /> Cordoba, Argentina
         </span>
         <div>
-          <a href="/tomas luquez.pdf" download="CvTomasLuquez.pdf">
+          <a href="/Tomas Luquez.pdf" download="CvTomasLuquez.pdf">
             <Button
               text={"DESCARGAR CV"}
               hover={"hover:bg-gris"}
