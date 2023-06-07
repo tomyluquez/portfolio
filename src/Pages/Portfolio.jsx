@@ -10,7 +10,8 @@ const Portfolio = () => {
         {projects.map((proyect) => (
           <div
             key={proyect.id}
-            className={`cuadro hover:scale-110 duration-300 overflow-hidden relative cursor-pointer w-3/4 md:w-1/4 text-gris px-8 py-4 h-[300px] flex flex-col justify-end group bg-[url('src/assets/${proyect.fondo}.png')]  bg-cover bg-no-repeat`}
+            className={`cuadro hover:scale-110 duration-300 overflow-hidden relative cursor-pointer w-3/4 md:w-1/4 text-gris px-8 py-4 h-[300px] flex flex-col justify-end group  bg-cover bg-no-repeat`}
+            style={{ backgroundImage: `url(${proyect.fondo})` }}
           >
             <div className="bg-transparente text-blanco overflow-hidden absolute left-1 -bottom-72 group-hover:bottom-1 duration-300">
               <h5 className="w-full text-center font-bold">{proyect.tittle}</h5>
