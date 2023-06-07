@@ -6,7 +6,7 @@ export const projects = [
       "En este ecomerce, se utilzo: React, Redux, StyledComponents,React-Router, Framer motion, Firebase, chakra UI",
     link: "https://herenciabebe.vercel.app/",
     id: 1,
-    fondo: "./public/herencia.png",
+    fondo: "/herencia.png",
   },
   {
     tittle: "App web - Cuentas Claras",
@@ -15,7 +15,7 @@ export const projects = [
       "En esta app, se utilzo: React, Redux, Tailwind, Framer motion, React-Hook-Form",
     link: "https://dividir-cuenta-app.vercel.app/",
     id: 2,
-    fondo: "./public/cuentasClaras.png",
+    fondo: "/cuentasClaras.png",
   },
   {
     tittle: "App web - Pedir APP",
@@ -24,6 +24,6 @@ export const projects = [
       "En esta app, se utilzo: React, Redux, StyledComponents, React-Router, Framer motion, Firebase, chakra UI, React-Hook-Form",
     link: "https://pedir-app.vercel.app/",
     id: 3,
-    fondo: "./public/pedir.png",
+    fondo: "/pedir.png",
   },
 ];

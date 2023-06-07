@@ -11,7 +11,7 @@ const About = () => {
         className="cuadro md:w-1/2 w-3/4 md:h-[560px] bg-gris rounded flex justify-center"
         data-aos="fade-right"
       >
-        <img src="./public/foto.png" alt="Foto de tomas" />
+        <img src="/foto.png" alt="Foto de tomas" />
       </div>
       <div className="md:w-1/2 w-3/4 md:h-[560px] text-negro font-roboto md:flex md:flex-col md:justify-center">
         <h4>Sobre Mi</h4>
@@ -29,7 +29,7 @@ const About = () => {
           <CiLocationOn /> Cordoba, Argentina
         </span>
         <div>
-          <a href="./public/tomas luquez.pdf" download="CvTomasLuquez.pdf">
+          <a href="/tomas luquez.pdf" download="CvTomasLuquez.pdf">
             <Button hover={"header"} text={"blanco"}>
               DESCARGAR CV
             </Button>
