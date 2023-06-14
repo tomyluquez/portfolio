@@ -26,4 +26,13 @@ export const projects = [
     id: 3,
     fondo: "/pedir.png",
   },
+  {
+    tittle: "App Web - To-do APP",
+    subTittle: "App para crear todos online",
+    description:
+      "En esta app, se utilzo: React, Chakra UI,Framer motion,Node.js, Express, MongoDB",
+    link: "https://todoapp-list.vercel.app/",
+    id: 4,
+    fondo: "/todo.png",
+  },
 ];

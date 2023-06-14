@@ -30,8 +30,13 @@ export const icons = [
     fade: "right",
   },
   {
+    name: "mongo",
+    src: "/mongo.png",
+    fade: "left",
+  },
+  {
     name: "git",
     src: "/git.png",
-    fade: "left",
+    fade: "right",
   },
 ];

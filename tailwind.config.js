@@ -22,6 +22,7 @@ export default {
       node: "#8CC84B",
       git: "#F03C2E",
       transparente: "rgba(0, 0, 0, 0.8)",
+      subtitle: "#878484",
     },
     fontFamily: {
       montserrat: ["Montserrat Alternates", "sans-serif"],
