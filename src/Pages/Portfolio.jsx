@@ -15,6 +15,7 @@ const Portfolio = () => {
             <div
               className={`cuadro hover:scale-110 duration-300 overflow-hidden relative cursor-pointer w-3/4 md:w-[320px] text-gris px-8 py-4 h-[300px] flex flex-col justify-end group  bg-cover bg-no-repeat`}
               style={{ backgroundImage: `url(${proyect.fondo})` }}
+              onClick={() => window.open(proyect.link, "blank")}
             >
               <div className="bg-transparente text-blanco overflow-hidden absolute left-1 -bottom-72 group-hover:bottom-1 duration-300 md:block hidden">
                 <h5 className="w-full text-center font-bold">
@@ -35,7 +36,9 @@ const Portfolio = () => {
             </div>
 
             <div className="flex flex-col items-center gap-2 md:hidden">
-              <span>{proyect.tittle}</span>
+              <a href={proyect.link} target="blank">
+                <span>{proyect.tittle}</span>
+              </a>
               <span className="text-subtitle">{proyect.description}</span>
             </div>
           </div>
