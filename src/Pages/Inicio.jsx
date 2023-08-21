@@ -1,30 +1,36 @@
-import { FaHandPeace } from "react-icons/fa";
-import Button from "../Components/Button";
+import Variables from "../Components/Variables";
 
 const Inicio = () => {
   return (
     <section
       id="Inicio"
-      className="container h-screen flex items-center justify-center"
+      className="h-screen px-4 md:gap-36 flex flex-col md:flex-row items-center justify-center text-roboto"
     >
-      <div className="py-16 w-3/4 h-full flex flex-col items-center justify-center">
-        <h5 className="flex gap-2 items-center mb-8 text-3xl">
-          BIENVENIDOS <FaHandPeace className="text-icons" />
-        </h5>
-        <h1 className="mb-4">
-          SOY <span className="font-roboto text-3xl">TOMAS LUQUEZ</span>
-        </h1>
-        <p className="text-center mb-12 font-montserrat italic text-xl">
-          Desarrollador web frontend con experiencia en HTML, CSS, JS, REACT,
-          entre otros.
-        </p>
-        <a href="tel:+5493512118497">
-          <Button
-            text={"CONTACTAME"}
-            hover={"hover:bg-blanco"}
-            color={"hover:text-negro"}
+      <div className="flex flex-col items-center font-roboto gap-4">
+        <span className="bg-naranjaFont text-gris p-1 text-[12px] self-start ">
+          Hola!, soy
+        </span>
+        <p className="text-5xl">Tomas Luquez</p>
+        <h1 className="self-start">{">"} Front-end Developer</h1>
+      </div>
+      <div className="bg-negro w-full sm:w-[auto] text-[12px] sm:text-[15px] mt-36 p-4 flex flex-col gap-12 md:mt-0">
+        <div className="text-grisFont flex flex-col">
+          <span>{"// Encuentrame en Github o Linkedin"} </span>
+          <span>{"// Click en el enlace para visitarlo"} </span>
+        </div>
+        <div>
+          {" "}
+          <Variables
+            variable="gitHubURL"
+            content="https://github.com/tomyluquez"
+            line="1"
           />
-        </a>
+          <Variables
+            variable="linkedinURL"
+            content="https://www.linkedin.com/in/tomasluquez/"
+            line="2"
+          />
+        </div>
       </div>
     </section>
   );

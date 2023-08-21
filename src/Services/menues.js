@@ -3,7 +3,7 @@ import { SiGmail } from "react-icons/si";
 
 export const menues = [
   { name: "Inicio", link: "#Inicio" },
-  { name: "sobre mi", link: "#Sobre" },
+  { name: "Sobre mi", link: "#Sobre" },
   { name: "Skills", link: "#Skills" },
   { name: "Portfolio", link: "#Portfolio" },
   { name: "Contacto", link: "#Contacto" },

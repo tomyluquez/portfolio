@@ -4,10 +4,12 @@ import Footer from "./Pages/Footer";
 import Inicio from "./Pages/Inicio";
 import Portfolio from "./Pages/Portfolio";
 import Skills from "./Pages/Skills";
+import PreLoader from "./Components/PreLoader";
 
 function App() {
   return (
     <div>
+      <PreLoader />
       <Header />
       <Inicio />
       <About />

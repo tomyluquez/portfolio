@@ -1,30 +1,54 @@
 import { menues, icons } from "../Services/menues";
 import { RiMenu4Fill } from "react-icons/ri";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
+  const [navScroll, setNavScroll] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 100) {
+        setNavScroll(true);
+      } else {
+        setNavScroll(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <header className="w-full">
-      <nav className="container fixed top-0 flex items-center justify-around px-8 py-4 text-blanco z-20	bg-gris">
+      <nav
+        className={`container max-w-[1840px] fixed top-0 flex items-center justify-around px-8 py-4 text-blanco z-20 ${
+          navScroll && "bg-gris duration-300"
+        } ${open && "bg-gris"} `}
+      >
         <div>
           <a href="#Inicio">
-            <h1 className="text-2xl hover:scale-110 duration-300">TL</h1>
+            <h1 className="text-2xl hover:scale-110 hover:text-naranja duration-300">
+              TL
+            </h1>
           </a>
         </div>
         <div
           className={`${
             open ? "h-auto" : "h-0"
-          } duration-300 absolute w-full overflow-hidden items-center left-0 bg-gris flex flex-col top-12 md:h-auto md:w-auto md:top-0 md:relative md:flex-row`}
+          }  absolute w-full overflow-hidden items-center left-0  flex flex-col top-12 md:h-auto md:w-auto md:top-0 md:relative md:flex-row ${
+            navScroll && "bg-gris duration-300"
+          } ${open && "bg-gris"}`}
         >
           <ul className="py-4 md:py-0 md:flex md:gap-4">
             {menues.map((menu, index) => (
               <a key={index} href={menu.link}>
                 <li
-                  className="relative hover:after:w-full"
+                  className="relative hover:after:w-full font-roboto"
                   onClick={() => setOpen(!open)}
                 >
-                  {menu.name.toUpperCase()}
+                  _{menu.name}
                 </li>
               </a>
             ))}
@@ -36,7 +60,7 @@ const Header = () => {
               key={icon.id}
               href={icon.link}
               target="blank"
-              className="hover:scale-125 duration-300"
+              className="hover:scale-125 hover:text-naranja duration-300"
             >
               <icon.component />
             </a>
