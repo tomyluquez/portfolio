@@ -6,40 +6,39 @@ const Portfolio = () => {
       <h2 className="text-gris w-full text-center text-3xl mt-8">
         MIS PRINCIPALES PROYECTOS
       </h2>
-      <div className="w-full flex flex-wrap gap-12 items-center justify-center my-24">
-        {projects.map((proyect) => (
-          <div
-            key={proyect.id}
-            className="flex flex-col text-center text-gris gap-4 items-center md:flex-row"
-          >
-            <div
-              className={`cuadro hover:scale-110 duration-300 overflow-hidden relative cursor-pointer w-3/4 md:w-[320px] text-gris px-8 py-4 h-[300px] flex flex-col justify-end group  bg-cover bg-no-repeat`}
-              style={{ backgroundImage: `url(${proyect.fondo})` }}
-              onClick={() => window.open(proyect.link, "blank")}
-            >
-              <div className="bg-transparente text-blanco overflow-hidden absolute left-1 -bottom-72 group-hover:bottom-1 duration-300 md:block hidden">
-                <h5 className="w-full text-center font-bold">
-                  {proyect.tittle}
-                </h5>
-                <span className="italic w-full mb-4 text-center block text-sm">
-                  {proyect.subTittle}
-                </span>
-                <p className="w-full text-center">{proyect.description}</p>
-                <a
-                  href={proyect.link}
-                  target="blank"
-                  className="w-full text-center text-rojo block mt-8"
-                >
-                  Link para visitar
-                </a>
-              </div>
+      <div className="w-full flex flex-wrap gap-12 items-center justify-center my-24 px-4">
+        {projects.map((project) => (
+          <div key={project.id} className="md:w-1/4  bg-gris rounded-lg">
+            <img
+              src={project.img}
+              alt=""
+              className="h-[150px] w-full object-cover rounded-t-lg"
+            />
+            <div className="p-4 text-[10px] h-[100px]">
+              <h5 className="text-naranja">{project.tittle}</h5>
+              <p>{project.description}</p>
             </div>
-
-            <div className="flex flex-col items-center gap-2 md:hidden">
-              <a href={proyect.link} target="blank">
-                <span>{proyect.tittle}</span>
+            <div className="p-4 flex justify-between items-center">
+              <a
+                href={project.link}
+                target="blank"
+                className="bg-blanco text-gris text-[12px] p-2 hover:bg-naranja hover:text-blanco duration-300"
+              >
+                Visitar Proyecto
               </a>
-              <span className="text-subtitle">{proyect.description}</span>
+              <div className="flex relative">
+                {project.icons.map((icon) => (
+                  <div key={icon.id} className="relative group">
+                    <icon.component
+                      style={{ color: icon.color }}
+                      className="transition-transform duration-300 transform group-hover:scale-110"
+                    />
+                    <span className="absolute cursor-default bottom-[-40px] bg-blanco text-gris p-2 text-[10px] opacity-0 group-hover:opacity-100 transition-opacity">
+                      {icon.name}
+                    </span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
         ))}
