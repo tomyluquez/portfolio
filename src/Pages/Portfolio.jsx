@@ -6,9 +6,12 @@ const Portfolio = () => {
       <h2 className="text-gris w-full text-center text-3xl mt-8">
         MIS PRINCIPALES PROYECTOS
       </h2>
-      <div className="w-full flex flex-wrap gap-12 items-center justify-center my-24 px-4">
+      <div className=" flex flex-wrap gap-12 items-center justify-center my-24 px-4">
         {projects.map((project) => (
-          <div key={project.id} className="md:w-1/4  bg-gris rounded-lg">
+          <div
+            key={project.id}
+            className="md:w-1/4 w-[340px]  bg-gris rounded-lg cards"
+          >
             <img
               src={project.img}
               alt=""
@@ -18,7 +21,7 @@ const Portfolio = () => {
               <h5 className="text-naranja">{project.tittle}</h5>
               <p>{project.description}</p>
             </div>
-            <div className="p-4 flex justify-between items-center">
+            <div className="p-4 flex justify-around items-center">
               <a
                 href={project.link}
                 target="blank"
