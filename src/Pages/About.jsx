@@ -20,10 +20,10 @@ const About = () => {
         </h2>
         <p className="mb-4 font-extralight">
           Un apasionado del desarrollado web frontend con experiencia en{" "}
-          <strong>HTML, CSS, JavaScript, React</strong>. Experto en la creación
-          de soluciones web atractivas y funcionales. Conocimientos avanzados de
-          Excel. Comprometido con el aprendizaje continuo y la mejora constante
-          de habilidades.
+          <strong>HTML, CSS, JavaScript, React y Angular</strong>. Experto en la
+          creación de soluciones web atractivas y funcionales. Conocimientos
+          avanzados de Excel. Comprometido con el aprendizaje continuo y la
+          mejora constante de habilidades.
         </p>
         <span className="flex items-center mb-12">
           <CiLocationOn /> Cordoba, Argentina

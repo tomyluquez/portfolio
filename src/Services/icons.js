@@ -20,6 +20,16 @@ export const icons = [
     fade: "right",
   },
   {
+    name: "angular",
+    src: "/angular.png",
+    fade: "left",
+  },
+  {
+    name: "typescript",
+    src: "/typescript.png",
+    fade: "right",
+  },
+  {
     name: "tailwind",
     src: "/tail.png",
     fade: "left",

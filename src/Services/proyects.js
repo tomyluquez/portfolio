@@ -1,5 +1,5 @@
 import { SiFirebase, SiMongodb, SiTailwindcss, SiCss3 } from "react-icons/si";
-import { FaNodeJs, FaReact } from "react-icons/fa";
+import { FaAngular, FaNodeJs, FaReact } from "react-icons/fa";
 
 export const projects = [
   {
@@ -40,11 +40,11 @@ export const projects = [
     subTittle:
       "landing page para empresa de software gastronomico (en proceso de construccion)",
     description: "En este ecomerce, se utilzo: React, Css, Cliengo",
-    link: "https://landing-nucleo.vercel.app/",
+    link: "https://landing-nucleocheck.vercel.app",
     id: 6,
     img: "/landing.jpg",
     icons: [
-      { id: 1, name: "React", component: FaReact, color: "#00D8FF" },
+      { id: 1, name: "Angular", component: FaAngular, color: "#DE002D" },
       { id: 2, name: "CSS", component: SiCss3, color: "#de5500" },
     ],
   },
