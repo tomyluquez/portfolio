@@ -11,9 +11,14 @@ const Skills = () => {
         {icons.map((icon) => (
           <div
             key={icon.name}
-            className="w-3/4 flex items-center justify-center md:flex-col md:grayscale  md:hover:grayscale-0 cursor-pointer md:hover:scale-110 duration-300"
+            className="w-3/4 flex items-center justify-center md:flex-col md:grayscale md:hover:grayscale-0 cursor-pointer md:hover:scale-110 duration-300"
           >
-            <img src={icon.src} alt="" data-aos={`fade-${icon.fade}`} />
+            <img
+              className="imgSkills"
+              src={icon.src}
+              alt=""
+              data-aos={`fade-${icon.fade}`}
+            />
             <span
               className={`w-[80px] text-center text-${icon.name}`}
               data-aos="fade-up"

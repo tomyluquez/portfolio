@@ -22,7 +22,7 @@ export const projects = [
       "En esta app, se utilzo: React, tailwind css, React-hook-form, mongoDB",
     link: "https://celi-tomi-casamiento.vercel.app/",
     id: 5,
-    img: "/casamiento.jpg",
+    img: "/casamiento.png",
     icons: [
       { id: 1, name: "React", component: FaReact, color: "#00D8FF" },
       {
@@ -42,10 +42,27 @@ export const projects = [
     description: "En este ecomerce, se utilzo: React, Css, Cliengo",
     link: "https://landing-nucleocheck.vercel.app",
     id: 6,
-    img: "/landing.jpg",
+    img: "/landing.png",
     icons: [
       { id: 1, name: "Angular", component: FaAngular, color: "#DE002D" },
       { id: 2, name: "CSS", component: SiCss3, color: "#de5500" },
+    ],
+  },
+  {
+    tittle: "Memo test - Game",
+    subTittle: "Juego de las coincidencias",
+    description: "En este mini juego, se utilzo: Angular, Css y Tailwind",
+    link: "https://memo-game-two.vercel.app/",
+    id: 4,
+    img: "/memoTest.png",
+    icons: [
+      { id: 1, name: "Angular", component: FaAngular, color: "#DE002D" },
+      {
+        id: 2,
+        name: "Tailwind",
+        component: SiTailwindcss,
+        color: "#00D8FF",
+      },
     ],
   },
   {
@@ -72,33 +89,13 @@ export const projects = [
     tittle: "App web - Pedir APP",
     subTittle: "App para pedidos online de comida",
     description:
-      "En esta app, se utilzo: React, Redux, Style name: '',dComponents, React-Router, Framer motion, Firebase, chakra UI, React-Hook-Form",
+      "En esta app, se utilzo: React, Redux, Style Components, React-Router, Framer motion, Firebase, chakra UI, React-Hook-Form",
     link: "https://pedir-app.vercel.app/",
     id: 3,
     img: "/pedir.png",
     icons: [
       { id: 1, name: "React", component: FaReact, color: "#00D8FF" },
       { id: 2, name: "Firebase", component: SiFirebase, color: "#de5500" },
-    ],
-  },
-  {
-    tittle: "App Web - To-do APP",
-    subTittle: "App para crear todos online",
-    description:
-      "En esta app, se utilzo: React, Chakra UI,Framer motion,Node.js, Express, MongoDB",
-    link: "https://todoapp-list.vercel.app/",
-    id: 4,
-    img: "/todo.png",
-    icons: [
-      { id: 1, name: "React", component: FaReact, color: "#00D8FF" },
-      {
-        id: 2,
-        name: "Tailwind",
-        component: SiTailwindcss,
-        color: "#00D8FF",
-      },
-      { id: 3, name: "MongoDB", component: SiMongodb, color: "#21de10" },
-      { id: 4, name: "NodeJs", component: FaNodeJs, color: "#21de10" },
     ],
   },
 ];

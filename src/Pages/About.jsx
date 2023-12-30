@@ -8,7 +8,7 @@ const About = () => {
       className="w-full flex flex-col items-center justify-around py-4 md:p-24 gap-12 md:flex-row"
     >
       <div
-        className="cuadro md:w-1/2 w-3/4 md:h-[560px] bg-gris rounded flex justify-center"
+        className="cuadro md:w-[450px] w-3/4 bg-gris rounded flex justify-center"
         data-aos="fade-right"
       >
         <img src="/avatar.jpg" alt="Foto de tomas" />

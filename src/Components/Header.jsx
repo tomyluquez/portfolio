@@ -21,10 +21,10 @@ const Header = () => {
     };
   }, []);
   return (
-    <header className="w-full">
+    <header className="w-full duration-300">
       <nav
-        className={`container max-w-[1840px] fixed top-0 flex items-center justify-around px-8 py-4 text-blanco z-20 ${
-          navScroll && "bg-gris duration-300"
+        className={`container max-w-[1840px] fixed top-0 flex items-center justify-around px-8 py-4 text-blanco z-20 duration-300 ${
+          navScroll && "bg-gris"
         } ${open && "bg-gris"} `}
       >
         <div>
@@ -35,13 +35,13 @@ const Header = () => {
           </a>
         </div>
         <div
-          className={`${
-            open ? "h-auto" : "h-0"
-          }  absolute w-full overflow-hidden items-center left-0  flex flex-col top-12 md:h-auto md:w-auto md:top-0 md:relative md:flex-row ${
-            navScroll && "bg-gris duration-300"
+          className={`duration-300 ${
+            open ? "h-screen" : "h-0"
+          }  absolute w-full overflow-hidden items-center left-0  flex flex-col  top-12 md:h-auto md:w-auto md:top-0 md:relative md:flex-row ${
+            navScroll && "bg-gris"
           } ${open && "bg-gris"}`}
         >
-          <ul className="py-4 md:py-0 md:flex md:gap-4">
+          <ul className="py-4 md:py-0 flex md:gap-4 h-full w-full flex-col justify-center items-center gap-[115px] md:flex-row">
             {menues.map((menu, index) => (
               <a key={index} href={menu.link}>
                 <li

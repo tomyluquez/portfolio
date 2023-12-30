@@ -15,18 +15,18 @@ export const icons = [
     fade: "left",
   },
   {
+    name: "typescript",
+    src: "/typescript.png",
+    fade: "right",
+  },
+  {
     name: "react",
     src: "/react.png",
-    fade: "right",
+    fade: "left",
   },
   {
     name: "angular",
     src: "/angular.png",
-    fade: "left",
-  },
-  {
-    name: "typescript",
-    src: "/typescript.png",
     fade: "right",
   },
   {

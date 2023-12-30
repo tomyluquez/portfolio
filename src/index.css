@@ -130,3 +130,9 @@ li:hover {
   top: -100%;
   transition: all 0.3s ease-in-out;
 }
+
+.imgSkills {
+  width: 100px;
+  max-width: 100px;
+  max-height: 100px;
+}
