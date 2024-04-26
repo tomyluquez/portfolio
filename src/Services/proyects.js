@@ -40,7 +40,7 @@ export const projects = [
     subTittle:
       "landing page para empresa de software gastronomico (en proceso de construccion)",
     description: "En este ecomerce, se utilzo: React, Css, Cliengo",
-    link: "www.nucleocheck.com",
+    link: "https://www.nucleocheck.com",
     id: 6,
     img: "/landing.png",
     icons: [
