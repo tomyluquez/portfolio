@@ -1,0 +1,36 @@
+{
+  "experience": [
+    {
+      "id": 1,
+      "title": "Desarrollador Frontend",
+      "description": "Desarrollo de aplicacion web",
+      "company": "Nucleo IT.",
+      "initialDate": "2022",
+      "finalDate": "Presente"
+    },
+    {
+      "id": 2,
+      "title": "Desarrollador FullStack",
+      "description": "Desarrollo de aplicacion web",
+      "company": "Freelance",
+      "initialDate": "2024",
+      "finalDate": "Presente"
+    },
+    {
+      "id": 3,
+      "title": "Desarrollador Fullstack",
+      "description": "Desarrollo de aplicacion web",
+      "company": "Freelance",
+      "initialDate": "2022",
+      "finalDate": "2023"
+    },
+    {
+      "id": 3,
+      "title": "Desarrollador Fullstack",
+      "description": "Desarrollo de aplicacion web",
+      "company": "Freelance",
+      "initialDate": "2021",
+      "finalDate": "2021"
+    }
+  ]
+}
