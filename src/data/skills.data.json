@@ -3,37 +3,37 @@
     {
       "id": 1,
       "title": "Javascript",
-      "img": "src/assets/js.png"
+      "icon": "square-js"
     },
     {
       "id": 2,
-      "title": "Typescript",
-      "img": "src/assets/ts.png"
+      "title": "Github",
+      "icon": "github"
     },
     {
       "id": 3,
       "title": "React",
-      "img": "src/assets/react.png"
+      "icon": "react"
     },
     {
       "id": 4,
       "title": "Angular",
-      "img": "src/assets/angular.png"
+      "icon": "angular"
     },
     {
       "id": 5,
       "title": "Git",
-      "img": "src/assets/git.png"
+      "icon": "git-alt"
     },
     {
       "id": 6,
-      "title": "Tailwind",
-      "img": "src/assets/tailwind.png"
+      "title": "CSS",
+      "icon": "css3-alt"
     },
     {
       "id": 7,
       "title": "Node",
-      "img": "src/assets/node.png"
+      "icon": "node-js"
     }
   ]
 }

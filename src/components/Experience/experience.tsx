@@ -3,18 +3,18 @@ import { Experience } from "../../Models/experiences.models";
 
 export const Experiences = () => {
   return (
-    <section className="dark:text-palette-50 text-palette-900 grid place-items-center gap-8 py-24">
+    <section className="dark:text-palette-50 text-palette-900 grid place-items-center gap-8 py-24 w-full">
       <h3 className="text-2xl font-bold">Experiencias laborales</h3>
-      <article>
+      <article className="w-full md:w-1/2 grid gap-8">
         {experienceJson.experience.map((experience: Experience) => (
-          <div key={experience.id}>
-            <div>
-              <span>{experience.title}</span>
-              <span>
+          <div key={experience.id} className="grid gap-4">
+            <div className="flex justify-between items-center">
+              <span className="text-2xl font-bold">{experience.title}</span>
+              <span className="text-slate-600">
                 {experience.initialDate} - {experience.finalDate}
               </span>
             </div>
-            <p>{experience.description}</p>
+            <p className="text-slate-600">{experience.description}</p>
           </div>
         ))}
       </article>

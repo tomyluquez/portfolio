@@ -12,7 +12,7 @@ export const Header = () => {
   }, [darkMode]);
 
   return (
-    <header className="dark:bg-palette-900 bg-palette-200 dark:text-palette-50 text-palette-900 flex items-center justify-between py-4 px-12 duration-300">
+    <header className="dark:bg-palette-900 bg-palette-200 dark:text-palette-50 text-palette-900 flex items-center justify-between py-4 px-8 duration-300">
       <div className="w-[50px] h-[50px] rounded-full overflow-hidden flex justify-center items-center bg-palette-400 dark:bg-palette-600 dark:fill-palette-50 fill-palette-900">
         <p>TL</p>
       </div>
@@ -21,13 +21,17 @@ export const Header = () => {
         <a href="#">Inicio</a>
         <a href="#">Proyectos</a>
         <a href="#">Experiencia</a>
-        <svg
+        <i
+          className="fa-solid fa-moon fill-palette-900 dark:fill-palette-50 cursor-pointer"
+          onClick={toggleDarkMode}
+        ></i>
+        {/* <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
           width={24}
           height={24}
           fill={"none"}
-          className="fill-palette-900 dark:fill-palette-50"
+          className=""
           onClick={toggleDarkMode}
         >
           <path
@@ -37,7 +41,7 @@ export const Header = () => {
             strokeLinecap="round"
             strokeLinejoin="round"
           />
-        </svg>
+        </svg> */}
       </nav>
     </header>
   );

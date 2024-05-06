@@ -1,0 +1,28 @@
+{
+  "contact": [
+    {
+      "id": 1,
+      "title": "Email",
+      "icon": "google",
+      "href": "mailto:luquez1431@gmail.com"
+    },
+    {
+      "id": 2,
+      "title": "LinkedIn",
+      "icon": "linkedin",
+      "href": "https://www.linkedin.com/in/tomasluquez/"
+    },
+    {
+      "id": 3,
+      "title": "Github",
+      "icon": "github",
+      "href": "https://github.com/tomyluquez"
+    },
+    {
+      "id": 4,
+      "title": "Whatsapp",
+      "icon": "whatsapp",
+      "href": "https://wa.me/+543512118497"
+    }
+  ]
+}

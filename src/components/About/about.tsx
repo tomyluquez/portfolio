@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <main className="grid place-items-center m-auto lg:w-[50%] gap-8 py-24 dark:text-palette-50 text-palette-900 text-center">
+    <main className="grid place-items-center m-auto md:w-[50%] gap-8 py-24 dark:text-palette-50 text-palette-900 text-center">
       <img
         src="./dev.png"
         alt="image avatar dev"
@@ -20,10 +20,10 @@ export const About = () => {
         un vistazo a mis trabajos!.
       </p>
       <div className="flex flex-wrap gap-4 items-center justify-center">
-        <button className="bg-transparent dark:bg-palette-50 text-palette-900 px-4 py-2 text-2xl font-bold border-2 border-palette-900 rounded-full duration-300">
+        <button className="w-[225px] bg-transparent dark:bg-palette-50 text-palette-900 px-4 py-2 text-2xl font-bold border-2 border-palette-900 rounded-full duration-300">
           Ponte en contacto
         </button>
-        <button className="bg-palette-900 dark:bg-transparent text-palette-50 px-4 py-2 text-2xl font-bold border-2 border-palette-50 rounded-full duration-300">
+        <button className="w-[225px] bg-palette-900 dark:bg-transparent text-palette-50 px-4 py-2 text-2xl font-bold border-2 border-palette-50 rounded-full duration-300">
           Descargar CV
         </button>
       </div>
