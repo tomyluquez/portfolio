@@ -1,5 +1,8 @@
+import { IconType } from "react-icons";
+
 export interface Skill {
   id: number;
-  title: string;
-  icon: string;
+  name: string;
+  component: IconType;
+  color?: string;
 }

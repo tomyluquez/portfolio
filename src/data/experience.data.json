@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Desarrollador Frontend",
-      "description": "Desarrollo de aplicacion web",
+      "description": "Desempeñé el rol de Frontend Developer en la empresa Nucleo IT., contribuyendo al éxito de tres proyectos distintos: \n\n 1. CRM de Clientes (Proyecto Interno): Participé en el desarrollo y mantenimiento de un sistema de gestión de relaciones con los clientes, utilizando Angular. Este proyecto fue fundamental para optimizar las operaciones internas de la empresa, mejorando la interacción con nuestros clientes y maximizando la eficiencia en la gestión de datos. \n\n 2. Sistema de Gestión para Gastronómicos (Proyecto Externo): Colaboré en la creación de un sistema de gestión específico para el sector gastronómico. Este proyecto externo implicó el diseño y la implementación de interfaces intuitivas y funcionales, facilitando la administración de restaurantes y locales de comida. Angular fue la herramienta principal utilizada para su desarrollo. \n\n 3. Landing Page Promocional: Contribuí al desarrollo de la landing page de la empresa, la cual tenía como objetivo promocionar nuestro sistema de gestión para diferentes industrias. Esta página web fue diseñada para captar la atención de potenciales clientes y ofrecer información relevante sobre nuestros productos y servicios.",
       "company": "Nucleo IT.",
       "initialDate": "2022",
       "finalDate": "Presente"
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "title": "Desarrollador FullStack",
-      "description": "Desarrollo de aplicacion web",
+      "description": "Diseñé y desarrollé un sistema de gestión personalizado para una escuela de danza, utilizando Angular y Firebase. Este sistema permitió automatizar procesos administrativos, gestionar matrículas y seguimiento de estudiantes de manera eficiente, optimizando las operaciones de la institución.",
       "company": "Freelance",
       "initialDate": "2024",
       "finalDate": "Presente"
@@ -19,15 +19,15 @@
     {
       "id": 3,
       "title": "Desarrollador Fullstack",
-      "description": "Desarrollo de aplicacion web",
+      "description": "Para un evento especial como un casamiento, desarrollé una tarjeta de invitación interactiva utilizando Angular y Firebase. Esta tarjeta digital proporcionó una manera única y memorable de invitar a los invitados, incorporando elementos multimedia y facilitando la confirmación de asistencia.",
       "company": "Freelance",
-      "initialDate": "2022",
+      "initialDate": "2023",
       "finalDate": "2023"
     },
     {
       "id": 3,
       "title": "Desarrollador Fullstack",
-      "description": "Desarrollo de aplicacion web",
+      "description": "En colaboración con una marca de ropa infantil, desarrollé un e-commerce utilizando React y MongoDB. Este proyecto me permitió crear una plataforma online intuitiva y segura para la venta de productos, brindando una experiencia de compra óptima para los usuarios.",
       "company": "Freelance",
       "initialDate": "2021",
       "finalDate": "2021"

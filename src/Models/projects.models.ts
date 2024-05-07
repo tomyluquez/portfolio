@@ -1,3 +1,5 @@
+import { IconType } from "react-icons";
+
 export interface Project {
   tittle: string;
   subTittle: string;
@@ -11,6 +13,6 @@ export interface Project {
 export interface Icon {
   id: number;
   name: string;
-  component: string;
+  component: IconType;
   color: string;
 }
