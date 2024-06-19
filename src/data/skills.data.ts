@@ -7,6 +7,7 @@ import { DiMongodb } from "react-icons/di";
 import { FaGitAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { Skill } from "../Models/skills.models";
+import { SiMysql } from "react-icons/si";
 
 export const SkillsIcons: Skill[] = [
   {
@@ -43,6 +44,12 @@ export const SkillsIcons: Skill[] = [
     id: 6,
     name: "MongoDB",
     component: DiMongodb,
+    color: "#21de10",
+  },
+  {
+    id: 9,
+    name: "MySQL",
+    component: SiMysql,
     color: "#21de10",
   },
   {

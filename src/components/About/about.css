@@ -1,0 +1,7 @@
+.container-ppal {
+  @apply grid place-items-center m-auto md:w-[50%] gap-8 py-24 dark:text-palette-50 text-palette-900 text-center;
+}
+
+.image {
+  @apply w-[200px] h-[180px] rounded-full overflow-hidden;
+}

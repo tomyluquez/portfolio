@@ -1,7 +1,9 @@
 export interface Experience {
   id: number;
   title: string;
-  description: string;
+  role?: string;
+  responsabilities: string[];
+  tecnologies: string[];
   company: string;
   initialDate: string;
   finalDate: string;

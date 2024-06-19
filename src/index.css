@@ -4,7 +4,84 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   font-family: "Poppins", sans serif;
   font-size: 14px;
+}
+
+/* Estilo para navegadores WebKit (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 12px; /* Ancho de la barra de desplazamiento */
+  height: 12px; /* Altura de la barra de desplazamiento (para scroll horizontal) */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color gris más oscuro para el pulgar */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e0e0e0; /* Color gris claro para la pista */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color gris más oscuro cuando se pasa el cursor */
+}
+
+/* Estilo para navegadores Firefox */
+body {
+  scrollbar-width: thin; /* Ancho de la barra de desplazamiento */
+  scrollbar-color: #888 #e0e0e0; /* Color del pulgar y de la pista */
+}
+
+/* Aplicación de estilos para todos los elementos con barra de desplazamiento */
+* {
+  scrollbar-width: thin; /* Ancho de la barra de desplazamiento */
+  scrollbar-color: #888 #e0e0e0; /* Color del pulgar y de la pista */
+}
+
+*::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  border-radius: 10px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Aplicaciones generales */
+
+.container-general {
+  @apply dark:text-palette-50 text-palette-900 flex flex-col items-center gap-8 py-24;
+}
+
+.text-general {
+  @apply text-2xl font-bold;
+}
+
+.article-general {
+  @apply w-full md:w-1/2 flex flex-col gap-24;
+}
+
+.secondary-button {
+  @apply w-[225px] h-[50px] flex items-center justify-center bg-palette-50 text-palette-900 px-4 py-2 font-bold border-2 border-palette-900 rounded-full hover:text-2xl duration-300;
+}
+
+.primary-button {
+  @apply w-[225px] h-[50px] flex items-center justify-center hover:bg-palette-900  text-palette-900 px-4 py-2 font-bold border-2 border-palette-50 rounded-full hover:text-2xl hover:text-palette-50 bg-slate-200 duration-300;
 }

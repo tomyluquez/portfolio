@@ -3,15 +3,51 @@
     {
       "id": 1,
       "title": "Desarrollador Frontend",
-      "description": "Desempeñé el rol de Frontend Developer en la empresa Nucleo IT., contribuyendo al éxito de tres proyectos distintos: \n\n 1. CRM de Clientes (Proyecto Interno): Participé en el desarrollo y mantenimiento de un sistema de gestión de relaciones con los clientes, utilizando Angular. Este proyecto fue fundamental para optimizar las operaciones internas de la empresa, mejorando la interacción con nuestros clientes y maximizando la eficiencia en la gestión de datos. \n\n 2. Sistema de Gestión para Gastronómicos (Proyecto Externo): Colaboré en la creación de un sistema de gestión específico para el sector gastronómico. Este proyecto externo implicó el diseño y la implementación de interfaces intuitivas y funcionales, facilitando la administración de restaurantes y locales de comida. Angular fue la herramienta principal utilizada para su desarrollo. \n\n 3. Landing Page Promocional: Contribuí al desarrollo de la landing page de la empresa, la cual tenía como objetivo promocionar nuestro sistema de gestión para diferentes industrias. Esta página web fue diseñada para captar la atención de potenciales clientes y ofrecer información relevante sobre nuestros productos y servicios.",
-      "company": "Nucleo IT.",
+      "role": "Desarrollador y mantenedor del sistema de gestión",
+      "responsabilities": [
+        "Desarrollo y mantenimiento de la interfaz frontend del sistema.",
+        "Gestión e interacción con bases de datos MySQL para asegurar un rendimiento óptimo.",
+        "Colaboración con el equipo de backend para integrar API REST.",
+        "Implementación de metodologías ágiles, específicamente SCRUM, para gestionar y priorizar tareas.",
+        "Uso de GIT para el control de versiones y la colaboración en el desarrollo de software."
+      ],
+      "company": "Nucleo IT. Empresa de sistemas de gestión gastronómico.",
       "initialDate": "2022",
-      "finalDate": "Presente"
+      "finalDate": "Presente",
+      "tecnologies": ["Angular", "MySql", "Typscript", "Git"]
     },
     {
       "id": 2,
       "title": "Desarrollador FullStack",
-      "description": "Diseñé y desarrollé un sistema de gestión personalizado para una escuela de danza, utilizando Angular y Firebase. Este sistema permitió automatizar procesos administrativos, gestionar matrículas y seguimiento de estudiantes de manera eficiente, optimizando las operaciones de la institución.",
+      "responsabilities": [
+        "Diseñé y desarrollé un sistema de gestión personalizado para una escuela de danza.",
+        "Automatice procesos administrativos, gestionar matrículas y seguimiento de estudiantes.",
+        "Interaccion con base de datos, Auth y storage de Firebase."
+      ],
+      "tecnologies": ["Angular", "Firebase", "Typscript", "Git", "Github"],
+      "company": "Freelance",
+      "initialDate": "2024",
+      "finalDate": "Presente"
+    },
+    {
+      "id": 5,
+      "title": "Desarrollador FullStack",
+      "responsabilities": [
+        "Desarrollo de un sistema de gestión para el manejo de clientes de manera interna para una empresa.",
+        "Uso de React, Redux y Styled Components para el frontend del sistema.",
+        "Creación de una API REST con Express en Node.js para el backend.",
+        "Conexión del sistema a una base de datos en MongoDB."
+      ],
+      "tecnologies": [
+        "React",
+        "Redux",
+        "StyledComponents",
+        "MongoDB",
+        "Typscript",
+        "Node.js",
+        "Git",
+        "Github"
+      ],
       "company": "Freelance",
       "initialDate": "2024",
       "finalDate": "Presente"
@@ -19,15 +55,33 @@
     {
       "id": 3,
       "title": "Desarrollador Fullstack",
-      "description": "Para un evento especial como un casamiento, desarrollé una tarjeta de invitación interactiva utilizando Angular y Firebase. Esta tarjeta digital proporcionó una manera única y memorable de invitar a los invitados, incorporando elementos multimedia y facilitando la confirmación de asistencia.",
+      "responsabilities": [
+        "Desarrollo de una tarjeta de invitación interactiva para un casamiento.",
+        "Creación de una tarjeta digital que proporcionó una manera única y memorable de invitar a los invitados.",
+        "Incorporación de elementos multimedia en la tarjeta de invitación.",
+        "Facilitación de la confirmación de asistencia a través de la tarjeta digital."
+      ],
+      "tecnologies": [
+        "React",
+        "Redux",
+        "Firebase",
+        "Typscript",
+        "Git",
+        "Github"
+      ],
       "company": "Freelance",
       "initialDate": "2023",
       "finalDate": "2023"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Desarrollador Fullstack",
-      "description": "En colaboración con una marca de ropa infantil, desarrollé un e-commerce utilizando React y MongoDB. Este proyecto me permitió crear una plataforma online intuitiva y segura para la venta de productos, brindando una experiencia de compra óptima para los usuarios.",
+      "responsabilities": [
+        "Desarrollo de un e-commerce en colaboración con una marca de ropa infantil utilizando React y MongoDB.",
+        "Creación de una plataforma online intuitiva y segura para la venta de productos.",
+        "Brindar una experiencia de compra óptima para los usuarios."
+      ],
+      "tecnologies": ["React, Redux, Firebase, Typscript", "Git", "Github"],
       "company": "Freelance",
       "initialDate": "2021",
       "finalDate": "2021"

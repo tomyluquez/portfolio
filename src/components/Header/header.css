@@ -1,0 +1,43 @@
+.container-header {
+  @apply fixed z-10 w-full dark:bg-palette-900 bg-palette-200 dark:text-palette-50 text-palette-900 flex items-center justify-center  py-4 px-8 duration-300 hover:opacity-100;
+}
+
+.nav-header {
+  @apply flex gap-8;
+}
+
+.item-nav {
+  @apply relative duration-300;
+}
+
+.item-nav::after {
+  @apply bg-palette-900 dark:bg-palette-50;
+
+  content: "";
+  width: 0%;
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.item-nav::before {
+  @apply bg-palette-900 dark:bg-palette-50;
+
+  content: "";
+  width: 0%;
+  position: absolute;
+  height: 1px;
+  bottom: 0;
+  right: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.item-nav:hover::after {
+  width: 50%;
+}
+
+.item-nav:hover::before {
+  width: 50%;
+}
