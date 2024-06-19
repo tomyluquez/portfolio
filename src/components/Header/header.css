@@ -1,9 +1,9 @@
 .container-header {
-  @apply fixed z-10 w-full dark:bg-palette-900 bg-palette-200 dark:text-palette-50 text-palette-900 flex items-center justify-center  py-4 px-8 duration-300 hover:opacity-100;
+  @apply fixed z-10 w-full dark:bg-palette-900 bg-palette-200 dark:text-palette-50 text-palette-900 flex items-center justify-center py-4 px-2 md:px-8 duration-300 hover:opacity-100;
 }
 
 .nav-header {
-  @apply flex gap-8;
+  @apply flex gap-4 md:gap-8;
 }
 
 .item-nav {
