@@ -3,6 +3,24 @@ import { FaAngular, FaNodeJs, FaReact } from "react-icons/fa";
 
 export const projects = [
   {
+    tittle: "Mix playlist Spotify App ",
+    subTittle: "App para mezclar playlists de spotify",
+    description:
+      "En esta app se utilizo: React, Redux y Tailwind interactuando con la API de spotify",
+    link: "https://spoti-mixer-app.vercel.app/",
+    id: 10,
+    img: "/spotiapp.png",
+    icons: [
+      { id: 1, name: "React", component: FaReact, color: "#00D8FF" },
+      {
+        id: 2,
+        name: "Tailwind",
+        component: SiTailwindcss,
+        color: "#00D8FF",
+      },
+    ],
+  },
+  {
     tittle: "Ecomerce - Herencia",
     subTittle: "Ecomerce para marca de ropa de bebe",
     description:

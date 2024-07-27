@@ -24,8 +24,8 @@ export const About = () => {
         </a>
         <a
           className="primary-button"
-          href="/TomasLuquezCV.pdf"
-          download="TomasLuquezCV.pdf"
+          href="/CV_Tomas_Luquez.docx"
+          download="CV_Tomas_Luquez.docx"
         >
           Descargar CV
         </a>
