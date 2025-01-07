@@ -2,29 +2,36 @@
   "experience": [
     {
       "id": 1,
-      "title": "Desarrollador Frontend",
-      "role": "Desarrollador y mantenedor del sistema de gestión",
+      "title": "Desarrollador Fullstack",
+      "role": "Diseñar, desarrollar y mantener sistemas de gestión",
       "responsabilities": [
-        "Desarrollo y mantenimiento de la interfaz frontend del sistema.",
-        "Gestión e interacción con bases de datos MySQL para asegurar un rendimiento óptimo.",
-        "Colaboración con el equipo de backend para integrar API REST.",
-        "Implementación de metodologías ágiles, específicamente SCRUM, para gestionar y priorizar tareas.",
-        "Uso de GIT para el control de versiones y la colaboración en el desarrollo de software."
+        "Desarrollo y mantenimiento de la interfaz de usuario del sistema, garantizando una experiencia óptima y fluida.",
+        "Gestión e interacción con bases de datos MySQL, optimizando consultas y asegurando un rendimiento eficiente.",
+        "Colaboración estrecha con el equipo de backend para la integración de API REST, asegurando una comunicación efectiva entre el frontend y el backend.",
+        "Implementación de metodologías ágiles, particularmente SCRUM, para gestionar y priorizar tareas de manera eficiente.",
+        "Uso de GIT para el control de versiones, facilitando la colaboración y el desarrollo continuo del software."
       ],
       "company": "Nucleo IT. Empresa de sistemas de gestión gastronómico.",
       "initialDate": "2022",
       "finalDate": "Presente",
-      "tecnologies": ["Angular", "MySql", "Typscript", "Git"]
+      "tecnologies": [
+        "Angular",
+        "MySQL",
+        "TypeScript",
+        "Git",
+        "C#",
+        "Azure Devops"
+      ]
     },
     {
       "id": 2,
       "title": "Desarrollador FullStack",
       "responsabilities": [
-        "Diseñé y desarrollé un sistema de gestión personalizado para una escuela de danza.",
-        "Automatice procesos administrativos, gestionar matrículas y seguimiento de estudiantes.",
-        "Interaccion con base de datos, Auth y storage de Firebase."
+        "Diseño y desarrollo de un sistema de gestión personalizado para una escuela de danza, optimizando procesos administrativos.",
+        "Automatización de la gestión de matrículas y seguimiento de estudiantes, mejorando la eficiencia operativa.",
+        "Interacción con Firebase para la autenticación de usuarios y almacenamiento de datos, garantizando la seguridad y escalabilidad del sistema."
       ],
-      "tecnologies": ["Angular", "Firebase", "Typscript", "Git", "Github"],
+      "tecnologies": ["Angular", "Firebase", "TypeScript", "Git", "GitHub"],
       "company": "Freelance",
       "initialDate": "2024",
       "finalDate": "Presente"
@@ -33,20 +40,20 @@
       "id": 5,
       "title": "Desarrollador FullStack",
       "responsabilities": [
-        "Desarrollo de un sistema de gestión para el manejo de clientes de manera interna para una empresa.",
-        "Uso de React, Redux y Styled Components para el frontend del sistema.",
-        "Creación de una API REST con Express en Node.js para el backend.",
-        "Conexión del sistema a una base de datos en MongoDB."
+        "Desarrollo de un sistema de gestión interno para la administración de clientes de una empresa, mejorando la organización y el acceso a la información.",
+        "Implementación del frontend utilizando React, Redux y Styled Components, garantizando una interfaz dinámica y fácil de usar.",
+        "Creación de una API REST con Express en Node.js para la gestión de datos en el backend, asegurando una arquitectura robusta y escalable.",
+        "Integración del sistema con una base de datos MongoDB, optimizando el almacenamiento y acceso a los datos."
       ],
       "tecnologies": [
         "React",
         "Redux",
-        "StyledComponents",
+        "Styled Components",
         "MongoDB",
-        "Typscript",
+        "TypeScript",
         "Node.js",
         "Git",
-        "Github"
+        "GitHub"
       ],
       "company": "Freelance",
       "initialDate": "2024",
@@ -56,18 +63,17 @@
       "id": 3,
       "title": "Desarrollador Fullstack",
       "responsabilities": [
-        "Desarrollo de una tarjeta de invitación interactiva para un casamiento.",
-        "Creación de una tarjeta digital que proporcionó una manera única y memorable de invitar a los invitados.",
-        "Incorporación de elementos multimedia en la tarjeta de invitación.",
-        "Facilitación de la confirmación de asistencia a través de la tarjeta digital."
+        "Desarrollo de una tarjeta de invitación interactiva para un evento de bodas, creando una experiencia única para los invitados.",
+        "Integración de elementos multimedia en la tarjeta digital, mejorando la interacción y personalización de la invitación.",
+        "Facilitación del proceso de confirmación de asistencia a través de la tarjeta digital, optimizando la gestión del evento."
       ],
       "tecnologies": [
         "React",
         "Redux",
         "Firebase",
-        "Typscript",
+        "TypeScript",
         "Git",
-        "Github"
+        "GitHub"
       ],
       "company": "Freelance",
       "initialDate": "2023",
@@ -77,11 +83,18 @@
       "id": 4,
       "title": "Desarrollador Fullstack",
       "responsabilities": [
-        "Desarrollo de un e-commerce en colaboración con una marca de ropa infantil utilizando React y MongoDB.",
-        "Creación de una plataforma online intuitiva y segura para la venta de productos.",
-        "Brindar una experiencia de compra óptima para los usuarios."
+        "Desarrollo de una plataforma de comercio electrónico en colaboración con una marca de ropa infantil, mejorando la experiencia de compra online.",
+        "Creación de un sitio web intuitivo y seguro utilizando React y MongoDB, optimizando la navegación y las transacciones.",
+        "Implementación de características clave para garantizar una experiencia de compra fluida y confiable para los usuarios."
       ],
-      "tecnologies": ["React, Redux, Firebase, Typscript", "Git", "Github"],
+      "tecnologies": [
+        "React",
+        "Redux",
+        "Firebase",
+        "TypeScript",
+        "Git",
+        "GitHub"
+      ],
       "company": "Freelance",
       "initialDate": "2021",
       "finalDate": "2021"

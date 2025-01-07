@@ -10,7 +10,7 @@ export const Experiences = () => {
         {experienceJson.experience.map((experience: Experience) => (
           <div
             key={experience.id}
-            className="flex flex-col justify-center gap-4"
+            className="bg-white dark:bg-gray-800 p-8 flex flex-col justify-center gap-4"
           >
             <div className="flex justify-between items-center">
               <div className="flex flex-col">

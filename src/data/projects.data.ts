@@ -1,100 +1,58 @@
-import { SiFirebase, SiMongodb, SiTailwindcss, SiCss3 } from "react-icons/si";
-import { FaAngular, FaNodeJs, FaReact } from "react-icons/fa";
-
 export const projects = [
   {
-    tittle: "Mix playlist Spotify App ",
-    subTittle: "App para mezclar playlists de spotify",
+    title: "Mix playlist Spotify App ",
     description:
-      "En esta app se utilizo: React, Redux y Tailwind interactuando con la API de spotify",
-    link: "https://spoti-mixer-app.vercel.app/",
+      "App para mezclar playlists de spotify. En esta app se utilizo: React, Redux y Tailwind interactuando con la API de spotify",
+    projectUrl: "https://spoti-mixer-app.vercel.app/",
     id: 10,
-    img: "/spotiapp.png",
-    icons: [
-      { id: 1, name: "React", component: FaReact, color: "#00D8FF" },
-      {
-        id: 2,
-        name: "Tailwind",
-        component: SiTailwindcss,
-        color: "#00D8FF",
-      },
-    ],
+    imageUrl: "/spotiapp.png",
+    technologies: ["React", "Tailwind"],
   },
   {
-    tittle: "Ecomerce - Herencia",
-    subTittle: "Ecomerce para marca de ropa de bebe",
+    title: "Ecomerce - Herencia",
     description:
-      "En este ecomerce, se utilzo: React, Redux, Style name: '',dComponents,React-Router, Framer motion, Firebase, chakra UI",
-    link: "https://herenciabebe.vercel.app/",
+      "Ecomerce para marca de ropa de bebe. En este ecomerce, se utilzo: React, Redux, Style name: '',dComponents,React-Router, Framer motion, Firebase, chakra UI",
+    projectUrl: "https://herenciabebe.vercel.app/",
     id: 1,
-    img: "/herencia.png",
-    icons: [
-      { id: 1, name: "React", component: FaReact, color: "#00D8FF" },
-      { id: 2, name: "Firebase", component: SiFirebase, color: "#de5500" },
-    ],
+    imageUrl: "/herencia.png",
+    technologies: ["React", "Firebase"],
   },
   {
-    tittle: "App web - Invitaciones bodas",
-    subTittle: "App para invitaciones de bodas",
+    title: "App web - Invitaciones bodas",
     description:
-      "En esta app, se utilzo: React, tailwind css, React-hook-form, mongoDB",
-    link: "https://celi-tomi-casamiento.vercel.app/",
+      "App para invitaciones de bodas. En esta app, se utilzo: React, tailwind css, React-hook-form, mongoDB",
+    projectUrl: "https://celi-tomi-casamiento.vercel.app/",
     id: 5,
-    img: "/boda.png",
-    icons: [
-      { id: 1, name: "React", component: FaReact, color: "#00D8FF" },
-      {
-        id: 2,
-        name: "Tailwind",
-        component: SiTailwindcss,
-        color: "#00D8FF",
-      },
-      { id: 3, name: "MongoDB", component: SiMongodb, color: "#21de10" },
-      { id: 4, name: "NodeJs", component: FaNodeJs, color: "#21de10" },
-    ],
+    imageUrl: "/boda.png",
+    technologies: ["React", "Tailwind", "MongoDB", "NodeJs"],
   },
   {
-    tittle: "Landing page - Nucleo It",
-    subTittle:
-      "landing page para empresa de software gastronomico (en proceso de construccion)",
+    title: "Landing page - Nucleo It",
     description:
-      "En este ecomerce, se utilzo: Angular, Css, Node.js, Express y MongoDB.",
-    link: "https://www.nucleocheck.com",
+      "landing page para empresa de software gastronomico. En este ecomerce, se utilzo: Angular, Css, Node.js, Express y MongoDB.",
+    projectUrl: "https://www.nucleocheck.com",
     id: 6,
-    img: "/nucleo.png",
-    icons: [
-      { id: 1, name: "Angular", component: FaAngular, color: "#DE002D" },
-      { id: 2, name: "CSS", component: SiCss3, color: "#de5500" },
-      { id: 3, name: "MongoDB", component: SiMongodb, color: "#21de10" },
-      { id: 4, name: "NodeJs", component: FaNodeJs, color: "#21de10" },
-    ],
+    imageUrl: "/nucleo.png",
+    technologies: ["Angular", "CSS", "MongoDB", "NodeJs"],
   },
   {
-    tittle: "Memo test - Game",
-    subTittle: "Juego de las coincidencias",
-    description: "En este mini juego, se utilzo: Angular, Css y Tailwind",
-    link: "https://memo-game-two.vercel.app/",
+    title: "Memo test - Game",
+    description:
+      "Juego de las coincidencias. En este mini juego, se utilzo: Angular, Css y Tailwind",
+    projectUrl: "https://memo-game-two.vercel.app/",
     id: 4,
-    img: "/memo.png",
-    icons: [
-      { id: 1, name: "Angular", component: FaAngular, color: "#DE002D" },
-      {
-        id: 2,
-        name: "Tailwind",
-        component: SiTailwindcss,
-        color: "#00D8FF",
-      },
-    ],
+    imageUrl: "/memo.png",
+    technologies: ["Angular", "Tailwind"],
   },
   // {
-  //   tittle: "App web - Cuentas Claras",
-  //   subTittle: "App para dividir gastos entre personas",
+  //   title: "App web - Cuentas Claras",
+  //   subtitle: "App para dividir gastos entre personas",
   //   description:
   //     "En esta app, se utilzo: React, Redux, Tailwind, Framer motion, React-Hook-Form",
-  //   link: "https://dividir-cuenta-app.vercel.app/",
+  //   projectUrl: "https://dividir-cuenta-app.vercel.app/",
   //   id: 2,
-  //   img: "/cuentasClaras.png",
-  //   icons: [
+  //   imageUrl: "/cuentasClaras.png",
+  //   technologies: [
   //     { id: 1, name: "React", component: FaReact, color: "#00D8FF" },
   //     {
   //       id: 2,
@@ -107,14 +65,14 @@ export const projects = [
   //   ],
   // },
   // {
-  //   tittle: "App web - Pedir APP",
-  //   subTittle: "App para pedidos online de comida",
+  //   title: "App web - Pedir APP",
+  //   subtitle: "App para pedidos online de comida",
   //   description:
   //     "En esta app, se utilzo: React, Redux, Style Components, React-Router, Framer motion, Firebase, chakra UI, React-Hook-Form",
-  //   link: "https://pedir-app.vercel.app/",
+  //   projectUrl: "https://pedir-app.vercel.app/",
   //   id: 3,
-  //   img: "/pedir.png",
-  //   icons: [
+  //   imageUrl: "/pedir.png",
+  //   technologies: [
   //     { id: 1, name: "React", component: FaReact, color: "#00D8FF" },
   //     { id: 2, name: "Firebase", component: SiFirebase, color: "#de5500" },
   //   ],

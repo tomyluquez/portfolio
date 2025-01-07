@@ -79,9 +79,9 @@ body {
 }
 
 .secondary-button {
-  @apply w-[225px] h-[50px] flex items-center justify-center bg-palette-50 text-palette-900 px-4 py-2 font-bold border-2 border-palette-900 rounded-full hover:text-2xl duration-300;
+  @apply w-[225px] h-[50px] flex items-center justify-center bg-palette-50 text-palette-900 px-4 py-2 font-bold border-2 border-palette-900 rounded-full hover:text-xl duration-300;
 }
 
 .primary-button {
-  @apply w-[225px] h-[50px] flex items-center justify-center hover:bg-palette-900  text-palette-900 px-4 py-2 font-bold border-2 border-palette-50 rounded-full hover:text-2xl hover:text-palette-50 bg-slate-200 duration-300;
+  @apply w-[225px] h-[50px] flex items-center justify-center hover:bg-palette-900  text-palette-900 px-4 py-2 font-bold border-2 border-palette-50 rounded-full hover:text-xl hover:text-palette-50 bg-slate-200 duration-300;
 }

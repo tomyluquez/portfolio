@@ -12,11 +12,14 @@ export const About = () => {
       </div>
       <p className="dark:text-slate-500 text-palette-900 leading-relaxed">
         Desarrollador web frontend con sólida experiencia en HTML, CSS,
-        JavaScript, Typescript, React y Angular. Hábil en la creación de
-        interfaces web atractivas y funcionales, con un fuerte enfoque en la
-        usabilidad y el rendimiento. Poseo conocimientos en MySQL y manejo de
-        API REST, y estoy siempre en busca de nuevas oportunidades para aprender
-        y crecer profesionalmente.
+        JavaScript, TypeScript, React y Angular. Especializado en la creación de
+        interfaces web atractivas, funcionales y optimizadas, con un enfoque en
+        la usabilidad y el rendimiento. Complemento mi experiencia con
+        conocimientos en desarrollo backend, utilizando Node.js, Express y
+        Sequelize para construir aplicaciones robustas y escalables. Además,
+        poseo experiencia en el manejo de API REST, incluyendo desarrollo con C#
+        y .NET. Estoy comprometido con el aprendizaje continuo y en busca de
+        nuevas oportunidades para aportar y crecer profesionalmente.
       </p>
       <div className="flex flex-wrap gap-4 items-center justify-center">
         <a className="primary-button" href="mailto:luquez1431@gmail.com">
